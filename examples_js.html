@@ -63,16 +63,27 @@
 // }
 // sum(6, 8)
 
-array = [5, 23, 98, 234, 1, 0, 3, 177]
-total = 0
-function argument(array){
-  for (i = 0; i < array.length; i++) {
-    total += array[i]
-    var average = total / array.length;
-    console.log(average)
-  }
-}
-console.log(argument(array))
+// var array = [5, 23, 98, 234, 1, 0, 3, 177]
+// total = 0
+// function average(array){
+//   for (i = 0; i < array.length; i++) {
+//     total += array[i];
+//   }
+//     var average = total / array.length;
+//     return average
+// }
+// console.log(average(array))
+
+var book = {
+      title: "C'etait aussi une decouverte",
+      author: "Alice",
+      isbn: 456-123-13,
+      pages: 256,
+      yearOfPublication: 2012,
+      printDetails: function() {
+        console.log("Title: " + this.title + "Author: " + this.author + "ISBN: " + this.isbn + "Pages: " + this.pages + "Year of Publication:" + this.yearOfPublication)
+      };
+    };
 
 
  
